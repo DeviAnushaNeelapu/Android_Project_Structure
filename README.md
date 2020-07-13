@@ -83,12 +83,15 @@ It will exists in the layouts folder and the structure of activity_main.xml file
         <h6>app:layout_constraintLeft_toLeftOf="parent"</h6>
         <h6>app:layout_constraintRight_toRightOf="parent"</h6>
         <h6>app:layout_constraintTop_toTopOf="parent" /></h6>
-<h6></android.support.constraint.ConstraintLayout></h6>
+     <h6></android.support.constraint.ConstraintLayout></h6>
 
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout
+
 xmlns:android="http://schemas.android.com/apk/res/android"
+
 xmlns:app="http://schemas.android.com/apk/res-auto"
+
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"

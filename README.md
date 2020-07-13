@@ -85,15 +85,8 @@ It will exists in the layouts folder and the structure of activity_main.xml file
         <h6>app:layout_constraintTop_toTopOf="parent" /></h6>
      <h6></android.support.constraint.ConstraintLayout></h6>
      
-     *This text will be italic*
-_This will also be italic_
-
-**This text will be bold**
-__This will also be bold__
-
-_You **can** combine them_
-
-'''<?xml version="1.0" encoding="utf-8"?>
+    
+<?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout
 xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -110,7 +103,7 @@ tools:context="com.tutlane.helloworld.MainActivity">
  app:layout_constraintRight_toRightOf="parent"
  app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
-'''
+
 <h2>Android Main Activity File (MainActivity.java)</h2>
 The main activity file in the android application is MainActivity.java and it will exist in the java folder.
 The MainActivity.java file will contain the java code to handle all the activities related to our app.

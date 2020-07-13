@@ -84,6 +84,14 @@ It will exists in the layouts folder and the structure of activity_main.xml file
         <h6>app:layout_constraintRight_toRightOf="parent"</h6>
         <h6>app:layout_constraintTop_toTopOf="parent" /></h6>
      <h6></android.support.constraint.ConstraintLayout></h6>
+     
+     *This text will be italic*
+_This will also be italic_
+
+**This text will be bold**
+__This will also be bold__
+
+_You **can** combine them_
 
 '''<?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout

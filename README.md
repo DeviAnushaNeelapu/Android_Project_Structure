@@ -65,7 +65,8 @@ The UI of our application will be designed in this file and it will contain Desi
 It will exists in the layouts folder and the structure of activity_main.xml file in Design mode like as shown below.
  
  ![Alt Text](https://www.tutlane.com/images/android/android_hello_world_app_layout_xml_file.png)
- We can make required design modifications in activity_main.xml file either using Design or Text modes. 
+
+We can make required design modifications in activity_main.xml file either using Design or Text modes. 
  If we switch to Text mode activity_main.xml file will contain a code like as shown below.
  
  <h6><?xml version="1.0" encoding="utf-8"?></h6>
@@ -85,26 +86,7 @@ It will exists in the layouts folder and the structure of activity_main.xml file
         <h6>app:layout_constraintTop_toTopOf="parent" /></h6>
      <h6></android.support.constraint.ConstraintLayout></h6>
      
-    
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:app="http://schemas.android.com/apk/res-auto"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-tools:context="com.tutlane.helloworld.MainActivity">
-<TextView
- android:layout_width="wrap_content"
- android:layout_height="wrap_content"
- android:text="Hello World!"
- app:layout_constraintBottom_toBottomOf="parent"
- app:layout_constraintLeft_toLeftOf="parent"
- app:layout_constraintRight_toRightOf="parent"
- app:layout_constraintTop_toTopOf="parent" />
-</android.support.constraint.ConstraintLayout>
-
-<h2>Android Main Activity File (MainActivity.java)</h2>
+ <h2>Android Main Activity File (MainActivity.java)</h2>
 The main activity file in the android application is MainActivity.java and it will exist in the java folder.
 The MainActivity.java file will contain the java code to handle all the activities related to our app.
 
